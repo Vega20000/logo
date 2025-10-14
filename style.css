@@ -1,0 +1,432 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  width: 90%;
+  margin: 0% auto;
+}
+/* header */
+.header {
+  h4 {
+    padding: 20px 0px;
+    color: rgba(228, 228, 228, 1);
+  }
+  .logo {
+    display: flex;
+    justify-content: space-around;
+  }
+  .head1{
+    display: flex;
+    gap: 100px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.47px;
+    padding-top: 15px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: -0.47px;
+    color: rgba(105, 104, 113, 1);
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  }
+  button {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 113, 67, 1);
+  }
+}
+/* header */
+
+/* seaction-hero */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  .Grow {
+    padding: 100px 0px 30px 70px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.5px;
+    padding-top: 50px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    padding: 20px 0px 50px 0px;
+  }
+  .Download {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+  }
+  button {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(84, 84, 212, 1);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .image {
+    padding: 65px 100px 50px 200px;
+    width: 580;
+    height: 644;
+    top: 190px;
+    left: 720px;
+  }
+}
+/* seaction-hero */
+
+/* seaction2-hero-nav */
+.hero-nav {
+  p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: rgba(228, 228, 228, 1);
+    display: flex;
+    justify-content: end;
+    padding: 40px 190px;
+  }
+  .logoipsum {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    padding: 40px 130px 40px 0px;
+  }
+}
+
+/* seaction2-hero-nav */
+
+/* creative */
+.adam1 {
+  display: flex;
+  justify-content: space-around;
+  .adam {
+    padding: 70px 0px;
+  }
+
+  .text {
+    padding: 150px 250px 150px 50px;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+    color: rgba(25, 25, 27, 1);
+    padding: 20px 0px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    color: rgba(105, 104, 113, 1);
+    padding: 30px 0px;
+  }
+  a {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+    color: rgba(84, 84, 212, 1);
+  }
+}
+/* creative */
+
+/* boxs */
+.boxs {
+  h2 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: rgba(228, 228, 228, 1);
+    padding: 50px 0px 100px 70px;
+  }
+  .box1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box2 {
+    padding: 100px 100px 50px 80px;
+  }
+  h2 {
+    padding: 0px 50px 30px 0px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: rgba(228, 228, 228, 1);
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+    color: rgba(25, 25, 27, 1);
+    padding: 50px 100px 10px 15px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    color: rgba(105, 104, 113, 1);
+    padding: 10px 10px 10px 15px;
+  }
+  a {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+    padding: 0px 0px 0px 15px;
+    color: rgba(84, 84, 212, 1);
+  }
+  .box3 {
+    padding: 50px 250px 100px 100px;
+  }
+}
+/* boxs */
+
+/* cards */
+.cards {
+  h2 {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: rgba(228, 228, 228, 1);
+    padding: 50px 50px 50px 0px;
+    display: flex;
+    justify-content: end;
+  }
+  .card1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+  }
+  img {
+    width: 114px;
+    height: 64px;
+    top: 2320px;
+    left: 294px;
+    padding: 0px 80px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.75px;
+    text-align: center;
+    color: rgba(25, 25, 27, 1);
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(105, 104, 113, 1);
+  }
+}
+
+/* cards */
+/* moneys */
+.moneys {
+  h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.88px;
+    color: rgba(25, 25, 27, 1);
+  }
+
+  .toggle {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 100px;
+  }
+  .Get {
+    padding: 50px 80px 0px 0px;
+     width: 344px;
+    height: 65px;
+    left: 2px;
+    border-radius: 10px;
+      background: rgba(247, 247, 251, 1);
+  }
+  .yearly {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(84, 84, 212, 1);
+    width: 150px;
+    height: 50px;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+  }
+  /* .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(25, 25, 27, 1);
+    background: rgba(247, 247, 251, 1);
+    width: 344px;
+    height: 65px;
+    left: 2px;
+    border-radius: 10px;
+    border: none;
+  } */
+
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 80px;
+  }
+
+  .plan1 {
+    width: 330px;
+    height: 441px;
+    top: 2896px;
+    left: 185px;
+    background: rgba(248, 248, 248, 1);
+    border-radius: 8px;
+  }
+
+  .plan2 {
+    width: 376px;
+    height: 463px;
+    top: 2880px;
+    left: 533px;
+    background: rgba(255, 113, 67, 1);
+    border-radius: 8px;
+    /* padding-bottom :30px; */
+  }
+
+  .plan3 {
+    width: 330px;
+    height: 441px;
+    top: 2896px;
+    left: 924px;
+    background: rgba(248, 248, 248, 1);
+    border-radius: 8px;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+    text-align: center;
+    color: rgba(105, 104, 113, 1);
+    padding: 20px 0px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.03px;
+    text-align: center;
+    color: rgba(29, 41, 63, 1);
+    padding: 10px 0px;
+  }
+  .white {
+    color: rgba(255, 255, 255, 1);
+  }
+  plaan {
+    color: rgba(255, 255, 255, 1);
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.53px;
+    text-align: center;
+    color: rgba(105, 104, 113, 1);
+    padding: 10px 0px;
+  }
+
+  .but1 {
+    width: 290px;
+    height: 60px;
+    border-radius: 10px;
+    border-width: 1px;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(84, 84, 212, 1);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+    border: none;
+  }
+  .but2 {
+    width: 290px;
+    height: 60px;
+    border-radius: 10px;
+    border-width: 1px;
+    text-align: center;
+    background: rgba(159, 57, 25, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+  }
+  .button1 {
+    display: flex;
+    justify-content: center;
+  }
+  .button2 {
+    display: flex;
+    justify-content: center;
+  }
+  .button3{
+      display: flex;
+    justify-content: center;
+  }
+}
+/* moneys */
